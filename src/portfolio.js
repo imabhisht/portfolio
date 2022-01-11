@@ -1,4 +1,4 @@
-F/* Change this file to get your personal Porfolio */
+/* Change this file to get your personal Porfolio */
 
 // Website related settings
 const settings = {
