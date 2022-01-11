@@ -1,4 +1,4 @@
-/* Change this file to get your personal Porfolio */
+F/* Change this file to get your personal Porfolio */
 
 // Website related settings
 const settings = {
@@ -604,7 +604,7 @@ const degrees = {
       subtitle: "Diploma in Computer Engineering",
       logo_path: "msulogo.png",
       alt_name: "SSGC",
-      duration: "2018 - 2021",
+      duration: "2019 - 2022",
       descriptions: [
         "⚡ I'm currently pursuing my diploma in Computer Engineering.",
         // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
