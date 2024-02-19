@@ -3,7 +3,7 @@ import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
-import { CgSun } from "react-icons/cg/";
+import { CgSun } from "react-icons/cg";
 import { HiMoon } from "react-icons/hi";
 import { style } from "glamor";
 
