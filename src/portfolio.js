@@ -17,7 +17,7 @@ const greeting = {
   subTitle1: "Software Engineer & Pro Googler!!",
   subTitle2: "Studying Computer Science...👨‍💻",
   resumeLink:
-    "https://drive.google.com/file/d/16lwa1cy9HgppQWIf1qp5DTI0ZmTknF70/view?usp=sharing",
+    "https://drive.google.com/file/d/1fj2BmnsfX_Bw1lP68pcJ46DwIWkqYvPx/view?usp=sharing",
   mail: "mailto:abhishtchouhan@gmail.com",
 };
 
