@@ -8,6 +8,23 @@ import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 
+const DiscordVerificationRoute = () => {
+  return (
+    <Route
+      path="/.well-known/discord"
+      exact
+      render={() => (
+        <div>
+          {/*
+            Replace the content below with the specific content you want to return
+          */}
+          {`dh=b640205682c94bdc24335a0122f2d192053d6d6a`}
+        </div>
+      )}
+    />
+  );
+};
+
 export default function Main(propss) {
   if (settings.isSplash) {
     return (
@@ -24,6 +41,11 @@ export default function Main(propss) {
                   setTheme={propss.setTheme}
                 />
               )}
+            />
+            <Route
+              path="/.well-known/discord"
+              exact
+              render={<DiscordVerificationRoute />}
             />
             <Route
               path="/home"
